@@ -5,13 +5,15 @@
 
 ###Requirements
 
-1. phpBB 3.0.11
+1. phpBB 3.0.13
 2. subsilver2 (really: is based upon)
 
 ###Customize
 
 ###Update history
-
+up to 3.0.0: SGo
+from 3.0.1 to 3.0.11: Vintagerccars
+from 3.0.12: Jewsharp
 
 ###License
 [GNU General Public License v2](http://opensource.org/licenses/GPL-2.0)

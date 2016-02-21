@@ -388,7 +388,11 @@ p.topicdetails {
 	text-decoration: none;
 }
 
-.error {
+.online {
+	color: green;
+}
+
+.offline, .error, .inactive {
 	color: red;
 	font-size: 13px;
 }
@@ -668,6 +672,9 @@ input.radio {
 	padding: 0 0;
 }
 
+input:focus, select:focus, textarea:focus {
+	outline-style: none;
+}
 
 /* BBCode
  ------------ */
