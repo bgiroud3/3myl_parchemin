@@ -1,0 +1,302 @@
+/*  phpBB 3.1 Original Light Colour Style Sheet
+    --------------------------------------------------------------
+	Style name:		3myl_parchemin
+	Based on style:	subSilver (the default phpBB 2 style)
+	Original author:	subBlue ( http://www.subBlue.com/ )
+	Modified by:		SGo ( http://www.mylimages.com )
+	Updated since version 3.0.0 by: Vintagerccar  (  http://eboulme.free.fr/index.php  )
+	Updated since version 3.0.12 by: Bernard Giroud  (  http://cgsavoie.fr/forum  )
+	
+	This is an alternative style for phpBB3 for those wishing to stay with
+	the familiar subSilver style of phpBB version 2.x
+	
+	Copyright 2006 phpBB Group ( http://www.phpbb.com/ )
+    --------------------------------------------------------------
+*/
+
+body {
+	color: #342712;
+	background-color: #EADAC0;
+}
+/* Frame
+ ------------ */
+td.left_top, td.center_top, td.right_top, td.left, td.center, td.right, td.left_bottom, td.center_bottom, td.right_bottom, .spacer {
+	background-color: #EADAC0;
+}
+
+#wrapnav {
+	background-color: #ECECEC;
+	border-color: #CFA769;
+}
+
+.forumrules {
+	background-color: #F9CC79;
+	border-color: #BB9860;
+}
+
+.forumrules h3 {
+	color: red;
+}
+/*  Text
+ --------------------- */
+h1 {
+	color: #745626;
+}
+
+p.moderators {
+	color: black;
+}
+
+p.breadcrumbs {
+	color: #342712;
+}
+
+.postreported, .postreported a:visited, .postreported a:hover, .postreported a:link, .postreported a:active {
+	color: red;
+}
+
+.postapprove, .postapprove a:visited, .postapprove a:hover, .postapprove a:link, .postapprove a:active {
+	color: green;
+}
+
+.postauthor {
+	color: #000000;
+}
+
+.postdetails {
+	color: #342712;
+}
+
+.posthilit {
+	background-color: yellow;
+}
+
+.nav {
+	color: #342712;
+}
+
+.pagination {
+	color: #342712;
+}
+
+.copyright {
+	color: #342712;
+}
+
+.error {
+	color: red;
+}
+
+
+/* Tables
+ ------------ */
+th {
+	color: #000000;
+	background-color: transparent;
+	border-color: #795927;
+}
+
+.tablebg {
+	background-color: transparent;
+}
+
+.catdiv {
+	background-color: transparent;
+}
+.rtl .catdiv {
+	background-color: transparent;
+}
+
+.cat {
+	background-color: transparent;
+	border-color: #795927;
+}
+
+.row1 {
+	background-color: transparent;
+	border-color: #CFA769;
+}
+
+.row2 {
+	background-color: transparent;
+	border-color: #CFA769;
+}
+
+.row3 {
+	background-color: transparent;
+	border-color: #CFA769;
+}
+.row4 {
+	background-color: transparent;
+	border-color: #CFA769;
+}
+.row5 {
+	background-color: transparent;
+	border-color: #CFA769;
+}
+
+hr {
+	background-color: #CFA769;
+	color: #342712;
+}
+
+/* Links
+ ------------ */
+a:link {
+	color: #604720;
+}
+
+a:active,
+a:visited {
+	color: #745626;
+}
+
+a:hover {
+	color: #D46400;
+}
+
+a.forumlink {
+	color: #604720;
+}
+
+a.topictitle:visited {
+	color: #745626;
+}
+
+th a,
+th a:visited {
+	color: #000000;
+}
+
+
+/* Form Elements
+ ------------ */
+input {
+	color: #342712;
+	border: 1px solid #795927;
+	background-color: #EADAC0;
+}
+
+textarea {
+	background-color: #EADAC0;
+	color: #342712;
+	border: 1px solid #795927;
+}
+
+select {
+	color: #342712;
+	background-color: #EADAC0;
+	border: 1px solid #795927;
+}
+
+option.disabled-option {
+	color: graytext;
+}
+
+
+input.radio {
+	background-color: transparent;
+}
+
+.post {
+	background-color: #EADAC0;
+}
+
+.btnbbcode {
+	color: #342712;
+	background-color: #F3EADD;
+	border: 1px solid #795927;
+}
+
+.btnmain {
+	border: 1px solid #795927;
+}
+
+.btnlite {
+	background-color: #F3EADD;
+	border: 1px solid #795927;
+}
+
+.btnfile {
+	background-color: #F3EADD;
+	border: 1px solid #795927;
+}
+
+.helpline {
+	background-color: #FFFF80;
+}
+
+
+/* BBCode
+ ------------ */
+.quotetitle, .attachtitle {
+	border-color: #795927;
+	color: #333333;
+	background-color: #EADAC0;
+}
+
+.quotecontent, .attachcontent {
+	border-color: #795927;
+	background-color: #FAFAFA;
+	color: #342712;
+}
+
+.codetitle {
+	border-color: #795927;
+	color: #FFFFFF;
+	background-color: #795927;
+}
+
+.codecontent {
+	border-color: #795927;
+	color: #006600;
+	background-color: #FAFAFA;
+}
+
+.syntaxbg {
+	color: #FFFFFF;
+}
+
+.syntaxcomment {
+	color: #FF8000;
+}
+
+.syntaxdefault {
+	color: #0000BB;
+}
+
+.syntaxhtml {
+	color: #000000;
+}
+
+.syntaxkeyword {
+	color: #007700;
+}
+
+.syntaxstring {
+	color: #DD0000;
+}
+
+
+/* Private messages
+ ------------------ */
+.pm_marked_colour {
+	background-color: #000000;
+}
+
+.pm_replied_colour {
+	background-color: #A9B8C2;
+}
+
+.pm_friend_colour {
+	background-color: #007700;
+}
+
+.pm_foe_colour {
+	background-color: #DD0000;
+}
+
+.sep {
+	color: black;
+	background-color: #FFA34F;
+}
