@@ -411,7 +411,9 @@ th {
 	border-width: 1px 0 1px 0;
 	border-style: solid;
 }
-
+th.center {
+	text-align: center;
+}
 td {
 	padding: 2px;
 }
